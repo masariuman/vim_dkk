@@ -1,0 +1,4 @@
+#!/bin/bash
+service apache2 start
+usermod -d /var/lib/mysql/ mysql
+service mysql start
